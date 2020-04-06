@@ -1,5 +1,7 @@
 import React from 'react';
+
 import './Main.scss';
+import JobCarousel from "./JobCarousel"
 
 const Main = () => {
   return (
@@ -13,22 +15,27 @@ const Main = () => {
           <p>
             I’m a Computer Engineering student with minors in Cognitive Science
             at the&nbsp;
-            <a href="https://uwaterloo.ca/" target="_blank">University of
-              Waterloo
+            <a
+              href="https://uwaterloo.ca/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              University of Waterloo
             </a>
-            <p>
-              I have a keen interest in artificial intelligence and software
-              development.
-            </p>
-
+          </p>
+          <p>
+            I have a keen interest in artificial intelligence and software
+            development.
           </p>
         </div>
       </section>
 
       <section className="experience">
+        <h1 className="heading section-header">Work experience</h1>
       </section>
 
       <section className="projects">
+        <JobCarousel />
       </section>
 
       <section className="blogs">

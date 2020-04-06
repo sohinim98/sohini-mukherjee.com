@@ -15,6 +15,7 @@ html {
 }
 
 body {
+  background: var(--background);
   color: var(--text);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -32,6 +33,9 @@ a {
 }
 .uppercase {
   text-transform: uppercase;
+}
+.section-header {
+  text-align: center;
 }
 // Bio
 
@@ -51,3 +55,7 @@ a {
     padding: 40px;
   }
 }
+
+// Experience
+
+.experience {}
