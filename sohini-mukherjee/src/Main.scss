@@ -1,0 +1,53 @@
+@import "./vars.scss";
+@import url("https://fonts.googleapis.com/css2?family=Arvo&display=swap");
+
+// General
+
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Arvo", serif
+}
+
+a {
+  color: var(--link);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.heading {
+  font-size: 36px;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+// Bio
+
+.bio {
+  align-items: center;
+  background: url(assets/website-cover.png);
+  background-size: cover;
+  display: flex;
+  font-size: 24px;
+  height: 100vh;
+  justify-content: center;
+
+  .bio--textbox {
+    background: rgba(255, 245, 215, 0.5);
+    border-radius: var(--border-radius);
+    max-width: 570px;
+    padding: 40px;
+  }
+}
