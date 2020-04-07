@@ -65,6 +65,7 @@ a {
 .side-projects {
   .projects {
     display: flex;
+    flex-direction: column;
     justify-content: center;
   }
   .project {
@@ -83,11 +84,19 @@ a {
     border-radius: var(--border-radius--sm);
     margin: auto;
     max-width: 412px;
+    width: 100%;
   }
   .project--title {
     color: var(--text-light);
     font-size: 14px;
     letter-spacing: 2.1px;
     text-transform: uppercase;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .side-projects {
+    .projects {
+      flex-direction: row;
+    }
   }
 }

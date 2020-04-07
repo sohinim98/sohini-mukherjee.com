@@ -92,7 +92,8 @@ const Main = () => {
               audience interaction.
               100% test coverage for performance, accessibility, and SEO using
               web.dev.
-              Followed React best practices, and design principles.
+              Followed React best practices and design principles, and used a
+              mobile-first approach.
             </p>
           </a>
         </div>
