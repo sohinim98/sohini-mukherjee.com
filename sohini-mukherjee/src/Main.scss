@@ -50,7 +50,7 @@ a {
 
   .bio--textbox {
     background: rgba(255, 245, 215, 0.5);
-    border-radius: var(--border-radius);
+    border-radius: var(--border-radius-sm);
     max-width: 570px;
     padding: 40px;
   }
@@ -59,3 +59,35 @@ a {
 // Experience
 
 .experience {}
+
+// Projects
+
+.side-projects {
+  .projects {
+    display: flex;
+    justify-content: center;
+  }
+  .project {
+    background: var(--black);
+    border-radius: var(--border-radius--lg);
+    color: var(--border);
+    max-width: 452px;
+    margin: 30px;
+    padding: 20px;
+    transition: all .2s ease-in-out;
+  }
+  .project:hover {
+    transform: scale(1.1);
+  }
+  .project--image {
+    border-radius: var(--border-radius--sm);
+    margin: auto;
+    max-width: 412px;
+  }
+  .project--title {
+    color: var(--text-light);
+    font-size: 14px;
+    letter-spacing: 2.1px;
+    text-transform: uppercase;
+  }
+}

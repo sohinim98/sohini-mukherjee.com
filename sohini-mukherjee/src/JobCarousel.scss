@@ -111,6 +111,10 @@ ul {
   border: 1px solid var(--border);
   color: var(--text--dark);
   cursor: pointer;
+  transition: background .2s ease-in-out;
+}
+.carousel-item--experience:hover {
+  background: var(--text-light);
 }
 .experience--header,
 .experience-template--header {
