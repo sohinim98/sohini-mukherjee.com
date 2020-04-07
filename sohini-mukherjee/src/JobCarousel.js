@@ -50,9 +50,9 @@ const JobCarousel = () => {
                   className="experience--logo"
                 />
               </div>
-              <h2 className="experience--header">
+              <h3 className="experience--header">
                 &#39;nuffsaid, swe intern
-              </h2>
+              </h3>
               <p className="experience--copy">
                 Palo Alto, California | Jan 2020 - Present
               </p>
@@ -88,9 +88,9 @@ const JobCarousel = () => {
                     className="experience--logo"
                   />
                 </div>
-                <h2 className="experience--header">
+                <h3 className="experience--header">
                   sibros, swe intern
-                </h2>
+                </h3>
                 <p className="experience--copy">
                   San Jose, California | May 2019 - Aug 2019
                 </p>
@@ -129,9 +129,9 @@ const JobCarousel = () => {
                     className="experience--logo"
                   />
                 </div>
-                <h2 className="experience--header">
+                <h3 className="experience--header">
                   oanda, software developer
-                </h2>
+                </h3>
                 <p className="experience--copy">
                   Toronto, Ontario | Sep 2018 - Dec 2018
                 </p>
@@ -169,9 +169,9 @@ const JobCarousel = () => {
                     className="experience--logo"
                   />
                 </div>
-                <h2 className="experience--header">
+                <h3 className="experience--header">
                   SPC, uwaterloo, supervisor
-                </h2>
+                </h3>
                 <p className="experience--copy">
                   Waterloo, Ontario | May 2018 - Aug 2018
                 </p>
@@ -207,9 +207,9 @@ const JobCarousel = () => {
                       className="experience--logo"
                     />
                   </div>
-                  <h2 className="experience--header">
+                  <h3 className="experience--header">
                     oanda, js application engineer
-                  </h2>
+                  </h3>
                   <p className="experience--copy">
                     Toronto, Ontario | Jan 2018 - April 2018
                   </p>
@@ -247,9 +247,9 @@ const JobCarousel = () => {
                           className="experience--logo"
                         />
                       </div>
-                      <h2 className="experience--header">
+                      <h3 className="experience--header">
                         cesc, software developer
-                      </h2>
+                      </h3>
                       <p className="experience--copy">
                         Kolkata, India | Jun 2017 - Aug 2017
                       </p>

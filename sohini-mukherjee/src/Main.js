@@ -39,12 +39,12 @@ const Main = () => {
       </section>
 
       <section className="experience">
-        <h1 className="heading section-header">Work experience</h1>
+        <h2 className="heading section-header">Work experience</h2>
           <JobCarousel />
       </section>
 
       <section className="side-projects">
-        <h1 className="heading section-header">Projects</h1>
+        <h2 className="heading section-header">Projects</h2>
         <div className="projects">
           <a
             aria-label="go to project"
@@ -54,9 +54,9 @@ const Main = () => {
             className="project"
           >
             <img src={imageCompression} alt="presentation" className="project--image" />
-            <h2 className="project--title">
+            <h3 className="project--title">
               K-means-clustering Image Compression | M.L.
-            </h2>
+            </h3>
             <p>
               Implemented K-means clustering algorithm and applied it for image
               compression, along with Principal Component Analysis (PCA) to find
@@ -71,7 +71,7 @@ const Main = () => {
             className="project"
           >
             <img src={brickBall} alt="presentation" className="project--image" />
-            <h2 className="project--title">Bricks and Ball | Game Dev</h2>
+            <h3 className="project--title">Bricks and Ball | Game Dev</h3>
             <p>
               Implemented a 2-D ball, paddle, and bricks game using JS, Canvas,
               and linear kinematics. Takes mouse and keyboard handling into
@@ -86,7 +86,7 @@ const Main = () => {
             className="project"
           >
             <img src={reactLogo} alt="presentation" className="project--image" />
-            <h2 className="project--title">React Web App | App & Web Dev</h2>
+            <h3 className="project--title">React Web App | App & Web Dev</h3>
             <p>
               Created a personal web app using React for content generation, and
               audience interaction.
@@ -106,9 +106,9 @@ const Main = () => {
             className="project"
           >
             <img src={goodWillHunting} alt="presentation" className="project--image" />
-            <h2 className="project--title">
+            <h3 className="project--title">
               Movie Recommender & Anomaly Detection | M.L.
-            </h2>
+            </h3>
             <ul>
               <li>
                  Implemented an anomaly detection algorithm and applied it to
@@ -128,7 +128,7 @@ const Main = () => {
             className="project"
           >
             <img src={spam} alt="presentation" className="project--image" />
-            <h2 className="project--title">Spam Classifier | M.L.</h2>
+            <h3 className="project--title">Spam Classifier | M.L.</h3>
             <p>
               Used Support Vector Machines (SVMs), and Gaussian Kernels to
               build a spam classifier for emails based on the text.
@@ -142,9 +142,9 @@ const Main = () => {
             className="project"
           >
             <img src={code} alt="presentation" className="project--image" />
-            <h2 className="project--title">
+            <h3 className="project--title">
               QuarantLeetCode | Data Structures & Algorithms
-            </h2>
+            </h3>
             <p>
               A stockpile of data structure and algorithm questions in C during
               Quarantine 2020 for cracking the coding interview!
@@ -154,6 +154,7 @@ const Main = () => {
       </section>
 
       <section className="blogs">
+        <h2 className="heading section-header">Blogs</h2>
       </section>
     </main>
   )
