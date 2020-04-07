@@ -22,6 +22,7 @@ const Main = () => {
             >
               University of Waterloo
             </a>
+            .
           </p>
           <p>
             I have a keen interest in artificial intelligence and software
