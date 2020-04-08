@@ -1,0 +1,158 @@
+@import "./vars.scss";
+@import url("https://fonts.googleapis.com/css2?family=Arvo&display=swap");
+
+// General
+
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: var(--background);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Arvo", serif
+}
+
+a {
+  color: var(--link);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.heading {
+  font-size: 36px;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.section-header {
+  text-align: center;
+}
+
+// Bio
+
+.bio {
+  align-items: center;
+  background: url(assets/website-cover.png);
+  background-size: cover;
+  display: flex;
+  font-size: 24px;
+  height: 100vh;
+  justify-content: center;
+
+  .bio--textbox {
+    background: rgba(210, 211, 220, 0.3);
+    border-radius: var(--border-radius-sm);
+    max-width: 570px;
+    padding: 40px;
+  }
+}
+
+// Experience
+
+.experience {
+  margin-top: var(--spacer);
+}
+
+// Projects and Blogs
+
+.skills-section {
+  .skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .skill {
+    border-radius: var(--border-radius--lg);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.20);
+    max-width: 452px;
+    margin: 30px auto;
+    padding: 20px;
+    transition: box-shadow .2s ease-in-out;
+  }
+  .skill:hover {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.20);
+  }
+  .skill--short {
+    max-height: 440px;
+    max-width: 352px;
+  }
+  .skill--image, .skill--image--small {
+    border-radius: var(--border-radius--sm);
+    margin: auto;
+    width: 100%;
+  }
+  .skill--image {
+    max-width: 412px;
+  }
+  .skill--image--small {
+    margin: auto;
+    max-width: 232px;
+  }
+  .skill--title {
+    color: var(--text-light);
+    font-size: 14px;
+    letter-spacing: 2.1px;
+    text-transform: uppercase;
+  }
+  .embedded-photo--container {
+    text-align: center;
+    .embedded-photo {
+      width: 100%;
+      max-width: 452px;
+    }
+  }
+}
+// Footer
+
+.footer {
+  margin-top: var(--spacer);
+  background: var(--text);
+  color: var(--background);
+  padding: 40px;
+  text-align: center;
+  .socials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+    max-width: 1062px;
+    padding-bottom: 10px;
+  }
+  .social {
+    margin: 4px;
+    padding: 10px;
+  }
+}
+
+//Desktop
+
+@media only screen and (min-width: 1024px) {
+
+  // Projects and Blogs
+
+  .skills-section {
+    .skills {
+      flex-direction: row;
+    }
+    .skill {
+      margin: 30px;
+    }
+  }
+
+  // Footer
+  .footer {
+    .social {
+      padding: 80px 40px;
+    }
+  }
+}
