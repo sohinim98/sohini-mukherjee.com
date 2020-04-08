@@ -98,6 +98,7 @@ ul {
 
 .carousel-item--template,
 .carousel-item--experience {
+  border-radius: var(--border-radius--lg);
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -107,14 +108,13 @@ ul {
   width: 450px;
 }
 .carousel-item--experience {
-  background: var(--button);
-  border: 1px solid var(--border);
-  color: var(--text--dark);
+  background: var(--background);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.20);
   cursor: pointer;
-  transition: background .2s ease-in-out;
+  transition: box-shadow .2s ease-in-out;
 }
 .carousel-item--experience:hover {
-  background: var(--text-light);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.20);
 }
 .experience--header,
 .experience-template--header {
