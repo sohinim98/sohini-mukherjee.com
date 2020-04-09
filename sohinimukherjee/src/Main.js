@@ -2,6 +2,7 @@ import React from 'react';
 
 import './Main.scss';
 import Header from "./Header"
+import Hamburger from "./Hamburger"
 import JobCarousel from "./JobCarousel"
 import Footer from "./Footer"
 
@@ -22,6 +23,7 @@ const Main = () => {
   return (
     <main id="main" className="main" role="main">
       <Header />
+      <Hamburger />
 
       <section className="about" id="about">
         <div className="about--textbox">

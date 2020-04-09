@@ -63,52 +63,8 @@ a {
 //Header
 
 .header {
-  position: fixed;
-  width: 100%;
-  z-index: 2;
+  display: none;
 }
-.header--white {
-  background: var(--background);
-  color: var(--text);
-  transition: all .2s ease-in-out;
-
-  .header--contact {
-    background: var(--text);
-    color: var(--background);
-  }
-}
-.header--black {
-  background: var(--text);
-  color: var(--background);
-  transition: all .2s ease-in-out;
-
-  .header--contact {
-    border: 2px solid var(--background);
-    color: var(--background);
-  }
-}
-.header--navigation {
-  align-items: center;
-  display: flex;
-  height: 100px;
-  justify-content: space-around;
-  margin: auto;
-  max-width: 1500px;
-}
-.header--link {
-  padding: 8px 0;
-  margin: 40px;
-}
-.header--link:hover,
-.header--link:focus {
-  background: linear-gradient(to right, #107dee ,30%, #58eba0) left bottom no-repeat;
-  background-size: 100% 3px;
-}
-.header--contact {
-  border-radius: var(--border-radius--sm);
-  padding: 20px 40px;
-}
-
 // About
 
 .about {
@@ -208,6 +164,57 @@ a {
 //Desktop
 
 @media only screen and (min-width: 1024px) {
+
+  // Header
+
+  .header {
+    display: block;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+  }
+  .header--white {
+    background: var(--background);
+    color: var(--text);
+    transition: all .2s ease-in-out;
+
+    .header--contact {
+      background: var(--text);
+      color: var(--background);
+      padding: 22px 42px;
+    }
+  }
+  .header--black {
+    background: var(--text);
+    color: var(--background);
+    transition: all .2s ease-in-out;
+
+    .header--contact {
+      border: 2px solid var(--background);
+      color: var(--background);
+      padding: 20px 40px;
+    }
+  }
+  .header--navigation {
+    align-items: center;
+    display: flex;
+    height: 100px;
+    justify-content: space-around;
+    margin: auto;
+    max-width: 1500px;
+  }
+  .header--link {
+    padding: 8px 0;
+    margin: 40px;
+  }
+  .header--link:hover,
+  .header--link:focus {
+    background: linear-gradient(to right, #107dee ,30%, #58eba0) left bottom no-repeat;
+    background-size: 100% 3px;
+  }
+  .header--contact {
+    border-radius: var(--border-radius--sm);
+  }
 
   // Projects and Blogs
 

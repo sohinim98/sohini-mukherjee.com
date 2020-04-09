@@ -10,6 +10,7 @@
     "font-awesome": "^4.7.0",
     "node-sass": "^4.13.1",
     "react": "^16.13.1",
+    "react-burger-menu": "^2.6.13",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
     "typescript": "^3.8.3"
