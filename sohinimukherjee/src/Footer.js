@@ -3,7 +3,7 @@ import 'font-awesome/css/font-awesome.min.css';
 
 const Footer = () => {
   return (
-    <section className="footer">
+    <section className="footer" id="footer">
       <div className="socials">
         <a
           aria-label="go to github"

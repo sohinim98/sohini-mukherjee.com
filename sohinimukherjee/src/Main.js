@@ -1,6 +1,7 @@
 import React from 'react';
 
 import './Main.scss';
+import Header from "./Header"
 import JobCarousel from "./JobCarousel"
 import Footer from "./Footer"
 
@@ -20,8 +21,10 @@ import spokenWord from "./assets/spoken-word.png"
 const Main = () => {
   return (
     <main id="main" className="main" role="main">
-      <section className="bio">
-        <div className="bio--textbox">
+      <Header />
+
+      <section className="about" id="about">
+        <div className="about--textbox">
           <h1 className="heading">Hey, I'm Sohini.</h1>
           <p>
             I like Math, Physics, building new things, and performance poetry.
@@ -45,12 +48,12 @@ const Main = () => {
         </div>
       </section>
 
-      <section className="experience">
+      <section className="experience" id="experience">
         <h2 className="heading section-header">Work experience</h2>
           <JobCarousel />
       </section>
 
-      <section className="skills-section">
+      <section className="skills-section" id="projects">
         <h2 className="heading section-header">Projects</h2>
         <div className="skills">
           <a
@@ -160,7 +163,7 @@ const Main = () => {
         </div>
       </section>
 
-      <section className="skills-section">
+      <section className="skills-section" id="blogs">
         <h2 className="heading section-header">Blogs & Photos</h2>
         <div className="skills">
           <a
@@ -210,8 +213,8 @@ const Main = () => {
         </div>
       </section>
 
-      <section className="skills-section">
-        <h2 className="heading section-header">Education and Hobbies</h2>
+      <section className="skills-section" id="education">
+        <h2 className="heading section-header">Education & Hobbies</h2>
         <div className="skills">
           <a
             aria-label="go to university website"
@@ -252,7 +255,7 @@ const Main = () => {
         </div>
       </section>
 
-      <Footer />
+      <section className="socials--section" id="socials"><Footer /></section>
     </main>
   )
 }

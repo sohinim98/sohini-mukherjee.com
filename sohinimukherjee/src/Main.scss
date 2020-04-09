@@ -28,6 +28,22 @@ a {
   text-decoration: none;
 }
 
+.skip-link {
+  background: var(--text);
+  color: var(--background);
+  display: block;
+  font-family: "Roboto", sans-serif;
+  left: -999px;
+  padding: 16px;
+  position: absolute;
+  top: -999px;
+}
+
+.skip-link:focus {
+  left: 0;
+  top: 0;
+}
+
 .heading {
   font-size: 36px;
 }
@@ -37,10 +53,65 @@ a {
 .section-header {
   text-align: center;
 }
+.experience:before,
+.skills-section:before {
+  height: 100px;
+  display: block;
+  content: '';
+}
 
-// Bio
+//Header
 
-.bio {
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+.header--white {
+  background: var(--background);
+  color: var(--text);
+  transition: all .2s ease-in-out;
+
+  .header--contact {
+    background: var(--text);
+    color: var(--background);
+  }
+}
+.header--black {
+  background: var(--text);
+  color: var(--background);
+  transition: all .2s ease-in-out;
+
+  .header--contact {
+    border: 2px solid var(--background);
+    color: var(--background);
+  }
+}
+.header--navigation {
+  align-items: center;
+  display: flex;
+  height: 100px;
+  justify-content: space-around;
+  margin: auto;
+  max-width: 1500px;
+}
+.header--link {
+  padding: 8px 0;
+  margin: 40px;
+}
+.header--link:hover,
+.header--link:focus {
+  background: linear-gradient(to right, #107dee ,30%, #58eba0) left bottom no-repeat;
+  background-size: 100% 3px;
+}
+.header--contact {
+  border-radius: var(--border-radius--sm);
+  padding: 20px 40px;
+}
+
+// About
+
+.about {
   align-items: center;
   background: url(assets/website-cover.png);
   background-size: cover;
@@ -49,7 +120,7 @@ a {
   height: 100vh;
   justify-content: center;
 
-  .bio--textbox {
+  .about--textbox {
     background: rgba(210, 211, 220, 0.3);
     border-radius: var(--border-radius-sm);
     max-width: 570px;
@@ -152,7 +223,8 @@ a {
   // Footer
   .footer {
     .social {
-      padding: 80px 40px;
+      margin: 44px 4px;
+      padding: 40px;
     }
   }
 }
