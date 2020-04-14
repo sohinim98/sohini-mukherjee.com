@@ -21,7 +21,7 @@ const Footer = () => {
           rel="noopener noreferrer"
           className="social"
         >
-          <i class="fa fa-stack-overflow fa-3x"></i>
+          <i className="fa fa-stack-overflow fa-3x"></i>
         </a>
         <a
           aria-label="go to linkedin"
@@ -75,7 +75,7 @@ const Footer = () => {
           rel="noopener noreferrer"
           className="social"
         >
-          <i class="fa fa-spotify fa-3x"></i>
+          <i className="fa fa-spotify fa-3x"></i>
         </a>
       </div>
       <div>© 2020, Sohini Mukherjee. All rights reserved.</div>
