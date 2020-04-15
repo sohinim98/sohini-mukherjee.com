@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Main from './Main';
 import * as serviceWorker from './serviceWorker';
+import ReactGA from 'react-ga';
+
+const trackingId = 'UA-163668525-1';
+ReactGA.initialize(trackingId);
 
 ReactDOM.render(
   <React.StrictMode>
