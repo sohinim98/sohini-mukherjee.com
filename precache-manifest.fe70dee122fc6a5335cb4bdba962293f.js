@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a9207762dea65fbf9e2c08c91960a087",
+    "revision": "05ae0b67b61beaefc18995e6e8862a10",
     "url": "/sohinimukherjee.com/index.html"
   },
   {
-    "revision": "8fab36c465077eeb1511",
+    "revision": "c538c6d1641584fe777f",
     "url": "/sohinimukherjee.com/static/css/2.7644f7f7.chunk.css"
   },
   {
-    "revision": "1707843a0694aa6d2cd3",
+    "revision": "4b4827c79152a8e84415",
     "url": "/sohinimukherjee.com/static/css/main.dbf87673.chunk.css"
   },
   {
-    "revision": "8fab36c465077eeb1511",
-    "url": "/sohinimukherjee.com/static/js/2.7b86727a.chunk.js"
+    "revision": "c538c6d1641584fe777f",
+    "url": "/sohinimukherjee.com/static/js/2.cd8a3265.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/sohinimukherjee.com/static/js/2.7b86727a.chunk.js.LICENSE.txt"
+    "url": "/sohinimukherjee.com/static/js/2.cd8a3265.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1707843a0694aa6d2cd3",
-    "url": "/sohinimukherjee.com/static/js/main.ef9fca16.chunk.js"
+    "revision": "4b4827c79152a8e84415",
+    "url": "/sohinimukherjee.com/static/js/main.240b0af8.chunk.js"
   },
   {
     "revision": "69390258e7a9708b2971",

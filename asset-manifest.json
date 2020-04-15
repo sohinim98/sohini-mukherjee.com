@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/sohinimukherjee.com/static/css/main.dbf87673.chunk.css",
-    "main.js": "/sohinimukherjee.com/static/js/main.ef9fca16.chunk.js",
-    "main.js.map": "/sohinimukherjee.com/static/js/main.ef9fca16.chunk.js.map",
+    "main.js": "/sohinimukherjee.com/static/js/main.240b0af8.chunk.js",
+    "main.js.map": "/sohinimukherjee.com/static/js/main.240b0af8.chunk.js.map",
     "runtime-main.js": "/sohinimukherjee.com/static/js/runtime-main.4630eebe.js",
     "runtime-main.js.map": "/sohinimukherjee.com/static/js/runtime-main.4630eebe.js.map",
     "static/css/2.7644f7f7.chunk.css": "/sohinimukherjee.com/static/css/2.7644f7f7.chunk.css",
-    "static/js/2.7b86727a.chunk.js": "/sohinimukherjee.com/static/js/2.7b86727a.chunk.js",
-    "static/js/2.7b86727a.chunk.js.map": "/sohinimukherjee.com/static/js/2.7b86727a.chunk.js.map",
+    "static/js/2.cd8a3265.chunk.js": "/sohinimukherjee.com/static/js/2.cd8a3265.chunk.js",
+    "static/js/2.cd8a3265.chunk.js.map": "/sohinimukherjee.com/static/js/2.cd8a3265.chunk.js.map",
     "index.html": "/sohinimukherjee.com/index.html",
-    "precache-manifest.729d8a22f50006cb2baae72597554c13.js": "/sohinimukherjee.com/precache-manifest.729d8a22f50006cb2baae72597554c13.js",
+    "precache-manifest.fe70dee122fc6a5335cb4bdba962293f.js": "/sohinimukherjee.com/precache-manifest.fe70dee122fc6a5335cb4bdba962293f.js",
     "service-worker.js": "/sohinimukherjee.com/service-worker.js",
     "static/css/2.7644f7f7.chunk.css.map": "/sohinimukherjee.com/static/css/2.7644f7f7.chunk.css.map",
     "static/css/main.dbf87673.chunk.css.map": "/sohinimukherjee.com/static/css/main.dbf87673.chunk.css.map",
-    "static/js/2.7b86727a.chunk.js.LICENSE.txt": "/sohinimukherjee.com/static/js/2.7b86727a.chunk.js.LICENSE.txt",
+    "static/js/2.cd8a3265.chunk.js.LICENSE.txt": "/sohinimukherjee.com/static/js/2.cd8a3265.chunk.js.LICENSE.txt",
     "static/media/cesc-logo.png": "/sohinimukherjee.com/static/media/cesc-logo.9c1078c4.png",
     "static/media/code.png": "/sohinimukherjee.com/static/media/code.2c1e1dd3.png",
     "static/media/durga-puja.png": "/sohinimukherjee.com/static/media/durga-puja.60610d7f.png",
@@ -36,8 +36,8 @@
   "entrypoints": [
     "static/js/runtime-main.4630eebe.js",
     "static/css/2.7644f7f7.chunk.css",
-    "static/js/2.7b86727a.chunk.js",
+    "static/js/2.cd8a3265.chunk.js",
     "static/css/main.dbf87673.chunk.css",
-    "static/js/main.ef9fca16.chunk.js"
+    "static/js/main.240b0af8.chunk.js"
   ]
 }
