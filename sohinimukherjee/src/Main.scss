@@ -70,6 +70,9 @@ a {
   height: 100vh;
   justify-content: center;
 
+  .about--thumbnail {
+    display: none;
+  }
   .about--textbox {
     background: rgba(210, 211, 220, 0.5);
     border-radius: var(--border-radius-sm);
@@ -228,6 +231,23 @@ a {
     .social {
       margin: 44px 4px;
       padding: 40px;
+    }
+  }
+}
+
+// Mobile thumbnail
+@media only screen and (max-width: 640px) {
+  // About
+  .about {
+    height: auto;
+    .about--thumbnail {
+      display: block;
+      position: absolute;
+      top: 110px;
+      width: 100px;
+    }
+    .about--textbox {
+      padding: 200px 40px 40px 80px;
     }
   }
 }

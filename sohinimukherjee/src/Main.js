@@ -6,6 +6,7 @@ import Hamburger from "./Hamburger"
 import JobCarousel from "./JobCarousel"
 import Footer from "./Footer"
 
+import coverThumbnail from "./assets/cover-thumbnail.png"
 import imageCompression from "./assets/image-compression.png"
 import brickBall from "./assets/brick-ball.png"
 import reactLogo from "./assets/react.png"
@@ -26,6 +27,7 @@ const Main = () => {
       <Hamburger />
 
       <section className="about" id="about">
+        <img src={coverThumbnail} alt="sohini's thumbnail" className="about--thumbnail"/>
         <div className="about--textbox">
           <h1 className="heading">Hey, I'm Sohini.</h1>
           <p>
