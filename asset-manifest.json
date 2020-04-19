@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.97247802.chunk.css",
-    "main.js": "/static/js/main.7c1d4d96.chunk.js",
-    "main.js.map": "/static/js/main.7c1d4d96.chunk.js.map",
+    "main.css": "/static/css/main.3c772fa5.chunk.css",
+    "main.js": "/static/js/main.ceb07785.chunk.js",
+    "main.js.map": "/static/js/main.ceb07785.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2af432d5.js",
     "runtime-main.js.map": "/static/js/runtime-main.2af432d5.js.map",
     "static/css/2.e6f51e71.chunk.css": "/static/css/2.e6f51e71.chunk.css",
-    "static/js/2.fbb81682.chunk.js": "/static/js/2.fbb81682.chunk.js",
-    "static/js/2.fbb81682.chunk.js.map": "/static/js/2.fbb81682.chunk.js.map",
+    "static/js/2.bc34825d.chunk.js": "/static/js/2.bc34825d.chunk.js",
+    "static/js/2.bc34825d.chunk.js.map": "/static/js/2.bc34825d.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.e32f8efda2dd9cb22de28d16d9b8a027.js": "/precache-manifest.e32f8efda2dd9cb22de28d16d9b8a027.js",
+    "precache-manifest.d8690c9439c361b72218cc7ae8c46178.js": "/precache-manifest.d8690c9439c361b72218cc7ae8c46178.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.e6f51e71.chunk.css.map": "/static/css/2.e6f51e71.chunk.css.map",
-    "static/css/main.97247802.chunk.css.map": "/static/css/main.97247802.chunk.css.map",
-    "static/js/2.fbb81682.chunk.js.LICENSE.txt": "/static/js/2.fbb81682.chunk.js.LICENSE.txt",
+    "static/css/main.3c772fa5.chunk.css.map": "/static/css/main.3c772fa5.chunk.css.map",
+    "static/js/2.bc34825d.chunk.js.LICENSE.txt": "/static/js/2.bc34825d.chunk.js.LICENSE.txt",
     "static/media/cesc-logo.png": "/static/media/cesc-logo.9c1078c4.png",
     "static/media/code.png": "/static/media/code.2c1e1dd3.png",
+    "static/media/cover-thumbnail.png": "/static/media/cover-thumbnail.8d59ebb1.png",
     "static/media/durga-puja.png": "/static/media/durga-puja.60610d7f.png",
     "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.fee66e71.woff",
     "static/media/good-will-hunting.png": "/static/media/good-will-hunting.518c35e2.png",
@@ -36,8 +37,8 @@
   "entrypoints": [
     "static/js/runtime-main.2af432d5.js",
     "static/css/2.e6f51e71.chunk.css",
-    "static/js/2.fbb81682.chunk.js",
-    "static/css/main.97247802.chunk.css",
-    "static/js/main.7c1d4d96.chunk.js"
+    "static/js/2.bc34825d.chunk.js",
+    "static/css/main.3c772fa5.chunk.css",
+    "static/js/main.ceb07785.chunk.js"
   ]
 }
