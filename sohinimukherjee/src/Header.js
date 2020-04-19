@@ -56,6 +56,15 @@ class Header extends React.Component {
             >
               Projects
             </Link>
+            <a
+              className="header--link"
+              href="https://drive.google.com/file/d/1BKzP2CqedfZZ0xWs5RsAiEkaNKY9IsCk/view"
+              rel="noopener noreferrer"
+              target="blank"
+            >
+              Resume
+            </a>
+
             <Link
               className="header--link"
               to="blogs"
