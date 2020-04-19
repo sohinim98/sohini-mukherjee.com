@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 
 class Header extends React.Component {
   constructor(props) {
@@ -28,13 +29,61 @@ class Header extends React.Component {
         <div className="header--navigation">
           <a href="#about" className="skip-link">Skip to main content</a>
           <div className="header--links">
-            <a href="#about" className="header--link">About</a>
-            <a href="#experience" className="header--link">Experience</a>
-            <a href="#projects" className="header--link">Projects</a>
-            <a href="#blogs" className="header--link">Blogs</a>
-            <a href="#education" className="header--link">Education</a>
+            <Link
+              className="header--link"
+              to="about"
+              smooth={true}
+              offset={-125}
+              duration= {500}
+            >
+              About
+            </Link>
+            <Link
+              className="header--link"
+              to="experience"
+              smooth={true}
+              offset={-125}
+              duration= {500}
+            >
+              Experience
+            </Link>
+            <Link
+              className="header--link"
+              to="projects"
+              smooth={true}
+              offset={-125}
+              duration= {500}
+            >
+              Projects
+            </Link>
+            <Link
+              className="header--link"
+              to="blogs"
+              smooth={true}
+              offset={-125}
+              duration= {500}
+            >
+              Blogs
+            </Link>
+            <Link
+              className="header--link"
+              to="education"
+              smooth={true}
+              offset={-125}
+              duration= {500}
+            >
+              Education
+            </Link>
           </div>
-          <a href="#socials" className="header--contact">Contact Me</a>
+          <Link
+            className="header--contact"
+            to="socials"
+            smooth={true}
+            offset={-125}
+            duration= {500}
+          >
+            Contact Me
+          </Link>
         </div>
       </header>
    )

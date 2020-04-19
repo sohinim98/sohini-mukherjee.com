@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-scroll";
 import { slide as Menu } from 'react-burger-menu'
 
 import './Hamburger.scss';
@@ -50,12 +51,66 @@ class Hamburger extends React.Component {
           isOpen={this.state.menuOpen}
           onStateChange={state => this.handleStateChange(state)}
           >
-          <a href="#about" className="menu-item" onClick={() => this.closeMenu()}>About</a>
-          <a href="#experience" className="menu-item" onClick={() => this.closeMenu()}>Experience</a>
-          <a href="#projects" className="menu-item" onClick={() => this.closeMenu()}>Projects</a>
-          <a href="#blogs" className="menu-item" onClick={() => this.closeMenu()}>Blogs</a>
-          <a href="#education" className="menu-item" onClick={() => this.closeMenu()}>Education</a>
-          <a href="#socials" className="menu-item hamburger--contact" onClick={() => this.closeMenu()}>Contact Me</a>
+          <Link
+            className="menu-item"
+            to="about"
+            smooth={true}
+            offset={-125}
+            duration= {500}
+            onClick={() => this.closeMenu()}
+          >
+            About
+          </Link>
+          <Link
+            className="menu-item"
+            to="experience"
+            smooth={true}
+            offset={-125}
+            duration= {500}
+            onClick={() => this.closeMenu()}
+          >
+            Experience
+          </Link>
+          <Link
+            className="menu-item"
+            to="projects"
+            smooth={true}
+            offset={-125}
+            duration= {500}
+            onClick={() => this.closeMenu()}
+          >
+            Projects
+          </Link>
+          <Link
+            className="menu-item"
+            to="blogs"
+            smooth={true}
+            offset={-125}
+            duration= {500}
+            onClick={() => this.closeMenu()}
+          >
+            Blogs
+          </Link>
+          <Link
+            className="menu-item"
+            to="education"
+            smooth={true}
+            offset={-125}
+            duration= {500}
+            onClick={() => this.closeMenu()}
+          >
+            Education
+          </Link>
+          <Link
+            className="menu-item hamburger--contact"
+            to="socials"
+            smooth={true}
+            offset={-125}
+            duration= {500}
+            onClick={() => this.closeMenu()}
+          >
+            Contact Me
+          </Link>
         </Menu>
       </div>
     );

@@ -53,12 +53,6 @@ a {
 .section-header {
   text-align: center;
 }
-.experience:before,
-.skills-section:before {
-  height: 100px;
-  display: block;
-  content: '';
-}
 
 //Header
 
@@ -204,6 +198,7 @@ a {
     max-width: 1500px;
   }
   .header--link {
+    cursor: pointer;
     padding: 8px 0;
     margin: 40px;
   }
@@ -214,6 +209,7 @@ a {
   }
   .header--contact {
     border-radius: var(--border-radius--sm);
+    cursor: pointer;
   }
 
   // Projects and Blogs
