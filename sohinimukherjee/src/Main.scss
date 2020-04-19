@@ -1,5 +1,5 @@
 @import "./vars.scss";
-@import url("https://fonts.googleapis.com/css2?family=Arvo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap");
 
 // General
 
@@ -19,7 +19,7 @@ body {
   color: var(--text);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "Arvo", serif
+  font-family: "Nunito Sans", serif
 }
 
 a {
@@ -45,7 +45,7 @@ a {
 }
 
 .heading {
-  font-size: 36px;
+  font-size: var(--text-lg);
 }
 .uppercase {
   text-transform: uppercase;
@@ -66,7 +66,7 @@ a {
   background: url(assets/website-cover.png);
   background-size: cover;
   display: flex;
-  font-size: 24px;
+  font-size: var(--text-md);
   height: 100vh;
   justify-content: center;
 
@@ -124,7 +124,7 @@ a {
   }
   .skill--title {
     color: var(--text-light);
-    font-size: 14px;
+    font-size: var(--text-sm);
     letter-spacing: 2.1px;
     text-transform: uppercase;
   }

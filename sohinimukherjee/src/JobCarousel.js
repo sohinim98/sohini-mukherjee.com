@@ -103,7 +103,7 @@ class JobCarousel extends React.Component {
                   />
                 </div>
                 <h3 className="experience--header">
-                  &#39;nuffsaid, swe intern
+                  &#39;nuffsaid, SWE Intern
                 </h3>
                 <p className="experience--copy">
                   Palo Alto, California | Jan 2020 - Present
@@ -141,7 +141,7 @@ class JobCarousel extends React.Component {
                     />
                   </div>
                   <h3 className="experience--header">
-                    sibros, swe intern
+                    Sibros, SWE Intern
                   </h3>
                   <p className="experience--copy">
                     San Jose, California | May 2019 - Aug 2019
@@ -182,7 +182,7 @@ class JobCarousel extends React.Component {
                     />
                   </div>
                   <h3 className="experience--header">
-                    oanda, software developer
+                    Oanda, Software Developer
                   </h3>
                   <p className="experience--copy">
                     Toronto, Ontario | Sep 2018 - Dec 2018
@@ -222,7 +222,7 @@ class JobCarousel extends React.Component {
                     />
                   </div>
                   <h3 className="experience--header">
-                    SPC, uwaterloo, supervisor
+                    SPC, UWaterloo, Supervisor
                   </h3>
                   <p className="experience--copy">
                     Waterloo, Ontario | May 2018 - Aug 2018
@@ -260,7 +260,7 @@ class JobCarousel extends React.Component {
                       />
                     </div>
                     <h3 className="experience--header">
-                      oanda, js application engineer
+                      Oanda, JS Application Engineer
                     </h3>
                     <p className="experience--copy">
                       Toronto, Ontario | Jan 2018 - April 2018
@@ -300,7 +300,7 @@ class JobCarousel extends React.Component {
                         />
                       </div>
                       <h3 className="experience--header">
-                        cesc, software developer
+                        CESC, Software Developer
                       </h3>
                       <p className="experience--copy">
                         Kolkata, India | Jun 2017 - Aug 2017
