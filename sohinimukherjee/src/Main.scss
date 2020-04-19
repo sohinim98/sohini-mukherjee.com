@@ -79,6 +79,10 @@ a {
     max-width: 570px;
     padding: 40px;
   }
+  .about--university:hover {
+    background: linear-gradient(to right, #107dee ,30%, #58eba0) left bottom no-repeat;
+    background-size: 100% 3px;
+  }
 }
 
 // Experience

@@ -37,6 +37,7 @@ const Main = () => {
             I’m a Computer Engineering student with minors in Cognitive Science
             at the&nbsp;
             <a
+              className="about--university"
               href="https://uwaterloo.ca"
               target="_blank"
               rel="noopener noreferrer"
