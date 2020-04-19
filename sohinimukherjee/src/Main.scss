@@ -229,8 +229,11 @@ a {
   // Footer
   .footer {
     .social {
-      margin: 44px 4px;
-      padding: 40px;
+      margin: 84px 44px;
+    }
+    .social:hover, .social:focus {
+      background: linear-gradient(to right, #107dee ,30%, #58eba0) left bottom no-repeat;
+      background-size: 100% 3px;
     }
   }
 }
