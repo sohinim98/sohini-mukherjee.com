@@ -7,6 +7,7 @@ import ReactGA from 'react-ga';
 
 const trackingId = 'UA-163668525-1';
 ReactGA.initialize(trackingId);
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 ReactDOM.render(
   <React.StrictMode>
