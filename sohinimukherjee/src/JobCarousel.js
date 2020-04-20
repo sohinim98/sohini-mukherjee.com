@@ -238,8 +238,8 @@ class JobCarousel extends React.Component {
                     </li>
                     <li>
                       Taught concepts ranging from Logistic Regression to Anomaly
-                      Detection during the span of 4 months as part of intensive
-                      weekly workshop
+                      Detection during the span of 4 months as part of the
+                      intensive weekly workshops
                     </li>
                   </ul>
                 </a>
