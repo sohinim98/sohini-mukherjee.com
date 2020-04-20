@@ -3,6 +3,7 @@ import React from 'react';
 import './Main.scss';
 import Header from "./Header"
 import Hamburger from "./Hamburger"
+import FadeInSection from "./FadeInSection"
 import JobCarousel from "./JobCarousel"
 import Footer from "./Footer"
 
@@ -53,12 +54,12 @@ const Main = () => {
         </div>
       </section>
 
-      <section className="experience" id="experience">
+      <FadeInSection classes="experience" componentId="experience">
         <h2 className="heading section-header">Work experience</h2>
           <JobCarousel />
-      </section>
+      </FadeInSection>
 
-      <section className="skills-section" id="projects">
+      <FadeInSection classes="skills-section" componentId="projects">
         <h2 className="heading section-header">Projects</h2>
         <div className="skills">
           <a
@@ -166,9 +167,9 @@ const Main = () => {
             </p>
           </a>
         </div>
-      </section>
+      </FadeInSection>
 
-      <section className="skills-section" id="blogs">
+      <FadeInSection classes="skills-section" componentId="blogs">
         <h2 className="heading section-header">Blogs & Photos</h2>
         <div className="skills">
           <a
@@ -216,9 +217,9 @@ const Main = () => {
             </p>
           </a>
         </div>
-      </section>
+      </FadeInSection>
 
-      <section className="skills-section" id="education">
+      <FadeInSection classes="skills-section" componentId="education">
         <h2 className="heading section-header">Education & Hobbies</h2>
         <div className="skills">
           <a
@@ -258,9 +259,9 @@ const Main = () => {
             </p>
           </a>
         </div>
-      </section>
+      </FadeInSection>
 
-      <section className="socials--section" id="socials"><Footer /></section>
+      <FadeInSection classes="socials--section" componentId="socials"><Footer /></FadeInSection>
     </main>
   )
 }
