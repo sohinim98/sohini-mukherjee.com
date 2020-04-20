@@ -7,6 +7,7 @@ class Header extends React.Component {
     this.state = {
       color: "header--white",
     }
+    this.listenToScrollEvent = this.listenToScrollEvent.bind(this)
   }
 
   listenToScrollEvent = () => {

@@ -10,11 +10,26 @@ class Hamburger extends React.Component {
     super(props)
     this.state = {
       menuOpen: false,
-      lastScroll: 0,
+      color: "hamburger--white",
     }
+    this.listenToScrollEvent = this.listenToScrollEvent.bind(this)
     this.handleStateChange = this.handleStateChange.bind(this)
     this.closeMenu = this.closeMenu.bind(this)
     this.customToggle = this.customToggle.bind(this);
+  }
+
+  listenToScrollEvent = () => {
+    const currentScroll = window.pageYOffset;
+    if (currentScroll !== 0) {
+      this.setState({color: "hamburger--black"})
+    } else {
+      this.setState({color: "hamburger--white"})
+    }
+  }
+
+  componentDidMount() {
+    // listen for scroll to change the header state
+     window.addEventListener('scroll', this.listenToScrollEvent)
   }
 
   // This keeps your state in sync with the opening/closing of the menu
@@ -37,7 +52,7 @@ class Hamburger extends React.Component {
   render () {
     return (
       <div className="hamburger--wrapper">
-        <div className="hamburger--fixed-header">
+        <div className={"hamburger--fixed-header " + this.state.color}>
             <button
               onClick={() => this.customToggle()}
               className="hamburger--custom-button">
