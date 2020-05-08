@@ -16,7 +16,7 @@ import spam from "./assets/spam.png"
 import code from "./assets/code.png"
 import quarantine from "./assets/quarantine.png"
 import durgaPuja from "./assets/durga-puja.png"
-import pride from "./assets/pride.png"
+import bali from "./assets/bali.png"
 import uWaterloo from "./assets/uwaterloo.png"
 import laMartiniere from "./assets/lamartiniere.png"
 import spokenWord from "./assets/spoken-word.png"
@@ -192,9 +192,9 @@ const Main = () => {
             </p>
           </a>
           <div className="embedded-photo--container">
-            <img src={pride} alt="presentation" className="embedded-photo"/>
+            <img src={bali} alt="presentation" className="embedded-photo"/>
             <h3 className="skill--title">
-              Pride | Toronto, 2018
+              Ubud | Bali, 2019
             </h3>
           </div>
           <a
