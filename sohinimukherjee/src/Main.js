@@ -35,8 +35,7 @@ const Main = () => {
             I like Math, Physics, building new things, and performance poetry.
           </p>
           <p>
-            I’m a Computer Engineering student with minors in Cognitive Science
-            at the&nbsp;
+            I’m a Computer Engineering student with an AI option at the&nbsp;
             <a
               className="about--university"
               href="https://uwaterloo.ca"
