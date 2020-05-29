@@ -59,7 +59,7 @@ class Header extends React.Component {
             </Link>
             <a
               className="header--link"
-              href="https://drive.google.com/file/d/18i5pPr6qPnenW2MdJRvzUru4zan8Q_vh/view"
+              href="https://drive.google.com/file/d/1hNqsaItFwXs4PRU_vlgAoR52-jbv3nS8/view"
               rel="noopener noreferrer"
               target="blank"
             >
