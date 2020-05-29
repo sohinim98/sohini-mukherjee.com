@@ -98,7 +98,7 @@ class Hamburger extends React.Component {
           </Link>
           <a
             className="menu-item"
-            href="https://drive.google.com/file/d/1BKzP2CqedfZZ0xWs5RsAiEkaNKY9IsCk/view"
+            href="https://drive.google.com/file/d/18i5pPr6qPnenW2MdJRvzUru4zan8Q_vh/view"
             rel="noopener noreferrer"
             target="blank"
           >
