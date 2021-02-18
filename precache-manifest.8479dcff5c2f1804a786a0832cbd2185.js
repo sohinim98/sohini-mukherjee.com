@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fc759d633af18e6344529f32c2bb3b97",
+    "revision": "ee8b3cae0bdd7e6b1e8bd1a0f0009092",
     "url": "/index.html"
   },
   {
-    "revision": "c1a4921056c111beb86a",
+    "revision": "a5bd7e59d6f09ab9dfe7",
     "url": "/static/css/2.e6f51e71.chunk.css"
   },
   {
-    "revision": "e1139f3c442802a2b907",
-    "url": "/static/css/main.358beb3e.chunk.css"
+    "revision": "9eb6a1eefca4ae3c09be",
+    "url": "/static/css/main.9b581e4c.chunk.css"
   },
   {
-    "revision": "c1a4921056c111beb86a",
-    "url": "/static/js/2.093ffa01.chunk.js"
+    "revision": "a5bd7e59d6f09ab9dfe7",
+    "url": "/static/js/2.a9bd0cdf.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/static/js/2.093ffa01.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.a9bd0cdf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e1139f3c442802a2b907",
-    "url": "/static/js/main.67a45304.chunk.js"
+    "revision": "9eb6a1eefca4ae3c09be",
+    "url": "/static/js/main.b799d4a6.chunk.js"
   },
   {
     "revision": "0c09eebd2f0915680915",
@@ -82,6 +82,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a1ec1d5dcf744e547c363c74cd646fe1",
     "url": "/static/media/oanda-logo.a1ec1d5d.png"
+  },
+  {
+    "revision": "33011c9ba19ae4d809d7068502200935",
+    "url": "/static/media/pencil-logo.33011c9b.svg"
   },
   {
     "revision": "74c39b0cda781db96cb25951f5254cc7",
