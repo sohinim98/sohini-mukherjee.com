@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.edbdfe4d.chunk.css",
-    "main.js": "/static/js/main.5fd26412.chunk.js",
-    "main.js.map": "/static/js/main.5fd26412.chunk.js.map",
+    "main.css": "/static/css/main.44deedfc.chunk.css",
+    "main.js": "/static/js/main.94d5ffa5.chunk.js",
+    "main.js.map": "/static/js/main.94d5ffa5.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2af432d5.js",
     "runtime-main.js.map": "/static/js/runtime-main.2af432d5.js.map",
     "static/css/2.e6f51e71.chunk.css": "/static/css/2.e6f51e71.chunk.css",
-    "static/js/2.a016237e.chunk.js": "/static/js/2.a016237e.chunk.js",
-    "static/js/2.a016237e.chunk.js.map": "/static/js/2.a016237e.chunk.js.map",
+    "static/js/2.a9bd0cdf.chunk.js": "/static/js/2.a9bd0cdf.chunk.js",
+    "static/js/2.a9bd0cdf.chunk.js.map": "/static/js/2.a9bd0cdf.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.47cef8d470cbd1fa31ff0eea92206535.js": "/precache-manifest.47cef8d470cbd1fa31ff0eea92206535.js",
+    "precache-manifest.86c4cdd3970d425a0a33173731cc3369.js": "/precache-manifest.86c4cdd3970d425a0a33173731cc3369.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.e6f51e71.chunk.css.map": "/static/css/2.e6f51e71.chunk.css.map",
-    "static/css/main.edbdfe4d.chunk.css.map": "/static/css/main.edbdfe4d.chunk.css.map",
-    "static/js/2.a016237e.chunk.js.LICENSE.txt": "/static/js/2.a016237e.chunk.js.LICENSE.txt",
+    "static/css/main.44deedfc.chunk.css.map": "/static/css/main.44deedfc.chunk.css.map",
+    "static/js/2.a9bd0cdf.chunk.js.LICENSE.txt": "/static/js/2.a9bd0cdf.chunk.js.LICENSE.txt",
     "static/media/bali.png": "/static/media/bali.8dae6f79.png",
     "static/media/cesc-logo.png": "/static/media/cesc-logo.9c1078c4.png",
     "static/media/code.png": "/static/media/code.2c1e1dd3.png",
@@ -32,13 +32,13 @@
     "static/media/spc-logo.png": "/static/media/spc-logo.c373d6de.png",
     "static/media/spoken-word.png": "/static/media/spoken-word.ff6b48ca.png",
     "static/media/uwaterloo.png": "/static/media/uwaterloo.7cb02941.png",
-    "static/media/Main.scss": "/static/media/website-cover.34b2894e.png"
+    "static/media/Main.scss": "/static/media/website-cover.dde4ab9d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.2af432d5.js",
     "static/css/2.e6f51e71.chunk.css",
-    "static/js/2.a016237e.chunk.js",
-    "static/css/main.edbdfe4d.chunk.css",
-    "static/js/main.5fd26412.chunk.js"
+    "static/js/2.a9bd0cdf.chunk.js",
+    "static/css/main.44deedfc.chunk.css",
+    "static/js/main.94d5ffa5.chunk.js"
   ]
 }
