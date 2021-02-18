@@ -3,6 +3,7 @@ import React from "react";
 import './JobCarousel.scss';
 
 import arrow from "./assets/right-arrow.png"
+import pencil from "./assets/pencil-logo.svg"
 import nuffsaid from "./assets/nuffsaid-logo.svg"
 import sibros from "./assets/sibros-logo.png"
 import oanda from "./assets/oanda-logo.png"
@@ -88,6 +89,47 @@ class JobCarousel extends React.Component {
             </div>
           </div>
           <div className="carousel-item">
+            <a
+                href="http://www.pencilapp.com/"
+                className="carousel-item--experience"
+                aria-label="go to pencil"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+              <div>
+                <img
+                    src={pencil}
+                    alt="pencil logo"
+                    className="experience--logo pencil--logo"
+                />
+              </div>
+              <h3 className="experience--header">
+                Pencil, SWE Intern
+              </h3>
+              <p className="experience--copy">
+                Palo Alto, California | Sep 2020 - Present
+              </p>
+              <ul className="experience--copy experience--footer">
+                <li>
+                  Engineered the payment and billing infrastructure E2E
+                  increasing revenue by 74%
+                </li>
+                <li>
+                  Built the new backward compatible text editing system E2E
+                  with in-line latex rendering
+                </li>
+                <li>
+                  Implemented an E2E drawing-to-image converter for Pencil&#39;s collaborative
+                  whiteboard with 99.7% accuracy.
+                </li>
+                <li>
+                  Built Pencil&#39;s data analytics system that reduced customer
+                  churn rate by 87%.
+                </li>
+              </ul>
+            </a>
+          </div>
+          <div className="carousel-item">
               <a
                 href="https://www.nuffsaid.com"
                 className="carousel-item--experience"
@@ -106,7 +148,7 @@ class JobCarousel extends React.Component {
                   &#39;nuffsaid, SWE Intern
                 </h3>
                 <p className="experience--copy">
-                  Palo Alto, California | Jan 2020 - Present
+                  Palo Alto, California | Jan 2020 - Apr 2020
                 </p>
                 <ul className="experience--copy experience--footer">
                   <li>
