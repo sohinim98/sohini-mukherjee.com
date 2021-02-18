@@ -77,9 +77,6 @@ a {
   font-size: var(--text-md);
   height: 100vh;
 
-  .about--thumbnail {
-    display: none;
-  }
   .about--textbox {
     background: rgba(210, 211, 220, 0.5);
     border-radius: var(--border-radius--sm);
@@ -253,12 +250,6 @@ a {
   // About
   .about {
     height: auto;
-    .about--thumbnail {
-      display: block;
-      position: absolute;
-      top: 110px;
-      width: 100px;
-    }
     .about--textbox {
       padding-top: 200px;
     }
