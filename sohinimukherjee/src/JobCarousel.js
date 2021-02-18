@@ -120,11 +120,11 @@ class JobCarousel extends React.Component {
                 </li>
                 <li>
                   Implemented an E2E drawing-to-image converter for Pencil&#39;s collaborative
-                  whiteboard with 99.7% accuracy.
+                  whiteboard with 99.7% accuracy
                 </li>
                 <li>
                   Built Pencil&#39;s data analytics system that reduced customer
-                  churn rate by 87%.
+                  churn rate by 87%
                 </li>
               </ul>
             </a>
