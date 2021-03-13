@@ -313,7 +313,7 @@ class JobCarousel extends React.Component {
                       </li>
                       <li>
                         Wrote asynchronous API routes in Node.js to improve
-                        performance by 10%
+                        performance by 27%
                       </li>
                       <li>
                         Reduced overall application size by 15% by refactoring
