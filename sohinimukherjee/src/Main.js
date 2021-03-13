@@ -231,7 +231,7 @@ const Main = () => {
               University of Waterloo | 2017-2022
             </h3>
             <p>
-              Computer Engineering, Bachelor of Applied Science
+              Computer Engineering with an AI Option, Bachelor of Applied Science
             </p>
           </a>
           <div className="embedded-photo--container">
