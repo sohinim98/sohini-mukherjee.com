@@ -67,7 +67,7 @@ const Main = () => {
               className="skill"
           >
             <img src={spotifyLogo} alt="presentation" className="skill--image" />
-            <h3 className="skill--title">SpotifySocial | React, Node, Python</h3>
+            <h3 className="skill--title">Spotify Social | React, Node, Python</h3>
             <ul>
               <li>
                 An application that uses various ML algorithms to score your friends&apos; music activity
