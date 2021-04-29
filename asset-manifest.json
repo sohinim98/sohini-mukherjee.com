@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.9b581e4c.chunk.css",
-    "main.js": "/static/js/main.99168a5d.chunk.js",
-    "main.js.map": "/static/js/main.99168a5d.chunk.js.map",
+    "main.js": "/static/js/main.fb655c97.chunk.js",
+    "main.js.map": "/static/js/main.fb655c97.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2af432d5.js",
     "runtime-main.js.map": "/static/js/runtime-main.2af432d5.js.map",
     "static/css/2.e6f51e71.chunk.css": "/static/css/2.e6f51e71.chunk.css",
     "static/js/2.a9bd0cdf.chunk.js": "/static/js/2.a9bd0cdf.chunk.js",
     "static/js/2.a9bd0cdf.chunk.js.map": "/static/js/2.a9bd0cdf.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b6c3df282d34bbf955fdbdaa0531e440.js": "/precache-manifest.b6c3df282d34bbf955fdbdaa0531e440.js",
+    "precache-manifest.9da0ef78a7128787aebcd195d49efaf4.js": "/precache-manifest.9da0ef78a7128787aebcd195d49efaf4.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.e6f51e71.chunk.css.map": "/static/css/2.e6f51e71.chunk.css.map",
     "static/css/main.9b581e4c.chunk.css.map": "/static/css/main.9b581e4c.chunk.css.map",
@@ -26,7 +26,6 @@
     "static/media/oanda-logo.png": "/static/media/oanda-logo.a1ec1d5d.png",
     "static/media/pencil-logo.svg": "/static/media/pencil-logo.33011c9b.svg",
     "static/media/quarantine.png": "/static/media/quarantine.74c39b0c.png",
-    "static/media/react.png": "/static/media/react.19b5d716.png",
     "static/media/sibros-logo.png": "/static/media/sibros-logo.f90b37a7.png",
     "static/media/spam.png": "/static/media/spam.a2b551b0.png",
     "static/media/spc-logo.png": "/static/media/spc-logo.c373d6de.png",
@@ -39,6 +38,6 @@
     "static/css/2.e6f51e71.chunk.css",
     "static/js/2.a9bd0cdf.chunk.js",
     "static/css/main.9b581e4c.chunk.css",
-    "static/js/main.99168a5d.chunk.js"
+    "static/js/main.fb655c97.chunk.js"
   ]
 }
