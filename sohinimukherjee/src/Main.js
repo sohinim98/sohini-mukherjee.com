@@ -9,7 +9,7 @@ import Footer from "./Footer"
 
 import imageCompression from "./assets/image-compression.png"
 import brickBall from "./assets/brick-ball.png"
-import reactLogo from "./assets/react.png"
+import spotifyLogo from "./assets/spotify.png"
 import goodWillHunting from "./assets/good-will-hunting.png"
 import spam from "./assets/spam.png"
 import code from "./assets/code.png"
@@ -60,6 +60,30 @@ const Main = () => {
         <h2 className="heading section-header">Projects</h2>
         <div className="skills">
           <a
+              aria-label="go to project"
+              href="https://github.com/SpotifySocial"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="skill"
+          >
+            <img src={spotifyLogo} alt="presentation" className="skill--image" />
+            <h3 className="skill--title">SpotifySocial | React, Node, Python</h3>
+            <ul>
+              <li>
+                An application that uses various ML algorithms to score your friends&apos; music activity
+                & find you songs and music buddies using Spotify&apos;s open-source APIs.
+              </li>
+              <li>
+                Followed best practices for API design, authentication and user experience.
+              </li>
+              <li>
+                100% test coverage for performance, accessibility, and SEO using
+                web.dev with a mobile-first approach.
+              </li>
+
+            </ul>
+          </a>
+          <a
             aria-label="go to project"
             href="https://github.com/sohinim98/K-means-Clustering-Image-Compression"
             target="_blank"
@@ -89,24 +113,6 @@ const Main = () => {
               Implemented a 2-D ball, paddle, and bricks game using JS, Canvas,
               and linear kinematics. Takes mouse and keyboard handling into
               account, and gives you 3 lives!
-            </p>
-          </a>
-          <a
-            aria-label="go to project"
-            href="https://github.com/sohinim98/sohinimukherjee.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="skill"
-          >
-            <img src={reactLogo} alt="presentation" className="skill--image" />
-            <h3 className="skill--title">React Web App | App & Web Dev</h3>
-            <p>
-              Created a personal web app using React for content generation, and
-              audience interaction.
-              100% test coverage for performance, accessibility, and SEO using
-              web.dev.
-              Followed React best practices and design principles, and used a
-              mobile-first approach.
             </p>
           </a>
         </div>

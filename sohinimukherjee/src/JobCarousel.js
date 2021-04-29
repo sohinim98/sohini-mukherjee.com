@@ -107,7 +107,7 @@ class JobCarousel extends React.Component {
                 Pencil, SWE Intern
               </h3>
               <p className="experience--copy">
-                Palo Alto, California | Sep 2020 - Present
+                Palo Alto, California | Jun 2020 - Present
               </p>
               <ul className="experience--copy experience--footer">
                 <li>
