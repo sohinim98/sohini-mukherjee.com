@@ -80,7 +80,6 @@ const Main = () => {
                 100% test coverage for performance, accessibility, and SEO using
                 web.dev with a mobile-first approach.
               </li>
-
             </ul>
           </a>
           <a
