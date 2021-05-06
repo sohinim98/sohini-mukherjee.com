@@ -107,6 +107,9 @@ Note: Beware of modifying this element as it can break the animations - you shou
   margin-top: 40px;
   text-align: center;
 }
+.hamburger--toggle {
+  margin-top: 40px;
+}
 
 // hide hamburger menu for desktop
 @media screen and (min-width: 1024px) {

@@ -41,7 +41,7 @@ class Main extends React.Component {
     return (
         <main id="main" className="main" role="main">
           <Header darkMode={this.state.darkMode} setDarkMode={this.setDarkMode}/>
-          <Hamburger/>
+          <Hamburger darkMode={this.state.darkMode} setDarkMode={this.setDarkMode}/>
           <section className={clsx('main--content', this.state.darkMode && 'dark-mode')}>
             <section className="about" id="about">
               <div className="about--textbox">

@@ -3,6 +3,7 @@ import { Link } from "react-scroll";
 import { slide as Menu } from 'react-burger-menu'
 
 import './Hamburger.scss';
+import DarkModeToggle from "react-dark-mode-toggle/dist";
 
 class Hamburger extends React.Component {
 
@@ -134,6 +135,12 @@ class Hamburger extends React.Component {
           >
             Contact Me
           </Link>
+          <DarkModeToggle
+              onChange={this.props.setDarkMode}
+              checked={this.props.darkMode}
+              size={50}
+              className="menu-item hamburger--toggle"
+          />
         </Menu>
       </div>
     );
