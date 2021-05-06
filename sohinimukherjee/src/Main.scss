@@ -76,6 +76,11 @@ a {
   img, video, .header, .header--black, .header--white, .about {
     filter: invert(1);
   }
+  .about--textbox {
+    background: rgba(0,0, 0, 0.6) !important;
+    color: var(--white)
+
+  }
 }
 
 // About
