@@ -9,6 +9,7 @@ import sibros from "./assets/sibros-logo.png"
 import oanda from "./assets/oanda-logo.png"
 import cesc from "./assets/cesc-logo.png"
 import spc from "./assets/spc-logo.png"
+import clsx from "clsx";
 
 class JobCarousel extends React.Component {
   constructor(props) {
@@ -83,7 +84,7 @@ class JobCarousel extends React.Component {
                 <img
                   src={arrow}
                   alt="presentation"
-                  className="right-arrow"
+                  className={clsx('right-arrow', this.props.darkMode && 'dark-mode-arrow')}
                 />
               </div>
             </div>
@@ -141,7 +142,7 @@ class JobCarousel extends React.Component {
                   <img
                     src={nuffsaid}
                     alt="nuffsaid logo"
-                    className="experience--logo"
+                    className="nuffsaid--logo"
                   />
                 </div>
                 <h3 className="experience--header">
@@ -179,7 +180,7 @@ class JobCarousel extends React.Component {
                     <img
                       src={sibros}
                       alt="sibros logo"
-                      className="experience--logo"
+                      className="sibros--logo"
                     />
                   </div>
                   <h3 className="experience--header">

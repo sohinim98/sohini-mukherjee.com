@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-scroll";
+import DarkModeToggle from "react-dark-mode-toggle";
 
 class Header extends React.Component {
   constructor(props) {
@@ -12,16 +13,29 @@ class Header extends React.Component {
 
   listenToScrollEvent = () => {
     const currentScroll = window.pageYOffset;
-    if (currentScroll !== 0) {
+    if (currentScroll !== 0 && !this.props.darkMode) {
       this.setState({color: "header--black"})
-    } else {
+    } else if (currentScroll == 0 && !this.props.darkMode) {
       this.setState({color: "header--white"})
     }
+    else if (currentScroll !== 0 && this.props.darkMode) {
+      this.setState({color: "header--white"})
+    }
+    else {
+      this.setState({color: "header--black"})
+    }
   }
+
 
   componentDidMount() {
     // listen for scroll to change the header state
      window.addEventListener('scroll', this.listenToScrollEvent)
+  }
+
+  componentDidUpdate(prevProps) {
+    if(this.props.darkMode !== prevProps.darkMode) {
+      this.listenToScrollEvent()
+    }
   }
 
   render() {
@@ -94,6 +108,12 @@ class Header extends React.Component {
           >
             Contact Me
           </Link>
+          <DarkModeToggle
+              onChange={this.props.setDarkMode}
+              checked={this.props.darkMode}
+              size={50}
+              className="header--toggle"
+          />
         </div>
       </header>
    )

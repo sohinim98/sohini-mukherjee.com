@@ -15,8 +15,6 @@ html {
 }
 
 body {
-  background: var(--background);
-  color: var(--text);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: "Nunito Sans", serif
@@ -62,11 +60,24 @@ a {
   text-align: center;
 }
 
+.main--content {
+  background: var(--background);
+  color: var(--text);
+}
+
 //Header
 
 .header {
   display: none;
 }
+
+.dark-mode {
+  filter: invert(1);
+  img, video, .header, .header--black, .header--white, .about {
+    filter: invert(1);
+  }
+}
+
 // About
 
 .about {

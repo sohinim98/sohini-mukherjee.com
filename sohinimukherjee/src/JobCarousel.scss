@@ -36,13 +36,27 @@ ul {
   height: 22px;
   width: 40px;
 }
+.dark-mode-arrow {
+  filter: unset !important;
+}
 .experience--logo {
   height: 25px;
 }
+.nuffsaid--logo, .sibros--logo, .pencil--logo {
+  border-radius: var(--border-radius--xs);
+  height: 30px;
+}
+.nuffsaid--logo, .sibros--logo {
+  background: var(--white);
+}
 .pencil--logo {
   background: var(--pencil);
-  border-radius: var(--border-radius--xs);
+}
+.pencil--logo, .nuffsaid--logo {
   padding: 6px;
+}
+.sibros--logo {
+  padding: 3px;
 }
 
 /*custom styles*/
