@@ -43,7 +43,7 @@ const Footer = () => {
         </a>
         <a
           aria-label="go to twitter"
-          href="https://twitter.com/sohinim98"
+          href="https://twitter.com/sohmusoblue"
           target="_blank"
           rel="noopener noreferrer"
           className="social"
