@@ -15,7 +15,7 @@ class Header extends React.Component {
     const currentScroll = window.pageYOffset;
     if (currentScroll !== 0 && !this.props.darkMode) {
       this.setState({color: "header--black"})
-    } else if (currentScroll == 0 && !this.props.darkMode) {
+    } else if (currentScroll === 0 && !this.props.darkMode) {
       this.setState({color: "header--white"})
     }
     else if (currentScroll !== 0 && this.props.darkMode) {
