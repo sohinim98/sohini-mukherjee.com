@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.deaf2ccb.chunk.css",
-    "main.js": "/static/js/main.a9a8f3f5.chunk.js",
-    "main.js.map": "/static/js/main.a9a8f3f5.chunk.js.map",
+    "main.js": "/static/js/main.cf5a19a3.chunk.js",
+    "main.js.map": "/static/js/main.cf5a19a3.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2af432d5.js",
     "runtime-main.js.map": "/static/js/runtime-main.2af432d5.js.map",
     "static/css/2.e6f51e71.chunk.css": "/static/css/2.e6f51e71.chunk.css",
-    "static/js/2.4300ea79.chunk.js": "/static/js/2.4300ea79.chunk.js",
-    "static/js/2.4300ea79.chunk.js.map": "/static/js/2.4300ea79.chunk.js.map",
+    "static/js/2.4ff0061c.chunk.js": "/static/js/2.4ff0061c.chunk.js",
+    "static/js/2.4ff0061c.chunk.js.map": "/static/js/2.4ff0061c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.36a29987f549622f5d563900cae1a273.js": "/precache-manifest.36a29987f549622f5d563900cae1a273.js",
+    "precache-manifest.b216e022ae86b8e8bb5683491166a823.js": "/precache-manifest.b216e022ae86b8e8bb5683491166a823.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.e6f51e71.chunk.css.map": "/static/css/2.e6f51e71.chunk.css.map",
     "static/css/main.deaf2ccb.chunk.css.map": "/static/css/main.deaf2ccb.chunk.css.map",
-    "static/js/2.4300ea79.chunk.js.LICENSE.txt": "/static/js/2.4300ea79.chunk.js.LICENSE.txt",
+    "static/js/2.4ff0061c.chunk.js.LICENSE.txt": "/static/js/2.4ff0061c.chunk.js.LICENSE.txt",
     "static/media/bali.png": "/static/media/bali.8dae6f79.png",
     "static/media/cesc-logo.png": "/static/media/cesc-logo.9c1078c4.png",
     "static/media/code.png": "/static/media/code.2c1e1dd3.png",
@@ -22,6 +22,7 @@
     "static/media/good-will-hunting.png": "/static/media/good-will-hunting.518c35e2.png",
     "static/media/image-compression.png": "/static/media/image-compression.b5d22f8c.png",
     "static/media/lamartiniere.png": "/static/media/lamartiniere.218b391e.png",
+    "static/media/linkedin.png": "/static/media/linkedin.463c825e.png",
     "static/media/nuffsaid-logo.svg": "/static/media/nuffsaid-logo.8e8e1e48.svg",
     "static/media/oanda-logo.png": "/static/media/oanda-logo.a1ec1d5d.png",
     "static/media/pencil-logo.svg": "/static/media/pencil-logo.33011c9b.svg",
@@ -36,8 +37,8 @@
   "entrypoints": [
     "static/js/runtime-main.2af432d5.js",
     "static/css/2.e6f51e71.chunk.css",
-    "static/js/2.4300ea79.chunk.js",
+    "static/js/2.4ff0061c.chunk.js",
     "static/css/main.deaf2ccb.chunk.css",
-    "static/js/main.a9a8f3f5.chunk.js"
+    "static/js/main.cf5a19a3.chunk.js"
   ]
 }
