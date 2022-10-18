@@ -45,7 +45,10 @@ class Main extends React.Component {
           <section className={clsx('main--content', this.state.darkMode && 'dark-mode')}>
             <section className="about" id="about">
               <div className="about--textbox">
-                <h1 className="heading">Hey, I'm Sohini.</h1>
+                <div className="about--title">
+                  <h1 className="heading">Hey, I'm Sohini.</h1>
+                  <p className="about--pronouns">(she/they)</p>
+                </div>
                 <p>
                   I like Math, Physics, building new things, and performance poetry.
                 </p>

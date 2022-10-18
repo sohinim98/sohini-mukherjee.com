@@ -99,6 +99,9 @@ a {
     max-width: 570px;
     padding: 40px;
   }
+  .about--pronouns {
+    font-style: italic;
+  }
   .about--university:hover {
     background: linear-gradient(to right, #107dee ,30%, #58eba0) left bottom no-repeat;
     background-size: 100% 3px;
@@ -236,6 +239,13 @@ a {
   .header--contact {
     border-radius: var(--border-radius--sm);
     cursor: pointer;
+  }
+
+  // About
+  .about--title {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
   }
 
   // Projects and Blogs
