@@ -3,6 +3,7 @@ import React from "react";
 import './JobCarousel.scss';
 
 import arrow from "./assets/right-arrow.png"
+import linkedin from "./assets/linkedin.png"
 import pencil from "./assets/pencil-logo.svg"
 import nuffsaid from "./assets/nuffsaid-logo.svg"
 import sibros from "./assets/sibros-logo.png"
@@ -88,6 +89,62 @@ class JobCarousel extends React.Component {
                 />
               </div>
             </div>
+          </div>
+          <div className="carousel-item">
+            <a
+                href="https://www.linkedin.com/"
+                className="carousel-item--experience"
+                aria-label="go to linkedin"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+              <div>
+                <img
+                    src={linkedin}
+                    alt="linkedin logo"
+                    className="experience--logo"
+                />
+              </div>
+              <h3 className="experience--header">
+                Linkedin, Software Engineer (Full-Time)
+              </h3>
+              <p className="experience--copy">
+                San Francisco, California | Aug 2022 - Present
+              </p>
+              <ul className="experience--copy experience--footer">
+                <li>
+                  Apps Engineer — LinkedIn Pages
+                </li>
+              </ul>
+            </a>
+          </div>
+          <div className="carousel-item">
+            <a
+                href="https://www.linkedin.com/"
+                className="carousel-item--experience"
+                aria-label="go to linkedin"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+              <div>
+                <img
+                    src={linkedin}
+                    alt="linkedin logo"
+                    className="experience--logo"
+                />
+              </div>
+              <h3 className="experience--header">
+                Linkedin, SWE Intern
+              </h3>
+              <p className="experience--copy">
+                San Francisco, California | Sep 2021 - Dec 2021
+              </p>
+              <ul className="experience--copy experience--footer">
+                <li>
+                  LMS Pages, Data and Backend
+                </li>
+              </ul>
+            </a>
           </div>
           <div className="carousel-item">
             <a
